@@ -1,65 +1,30 @@
 body {
-	background-image: linear-gradient(90deg, #B718DF, #8A40F8);
+	background-image: linear-gradient(60deg, #B718DF, #8A40F8);
+	font-family: 'Fredoka One', cursive;
+	font-size: 30px;
 }
 
-.titleWrapper{
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	margin: auto;
-	text-align:center;
-	height:80px;
-	overflow:hidden;
-	width: 100%;
-	text-align:center;
-}
-h1{
-	color:#292929;
-	font-size: 80px;
-	margin:0;
-	padding:0;
-	line-height:80px;
-	height:80px;
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	word-space: 4em;
-	letter-spacing: 0.05em;
-}
-h1 span{
-	position: relative;
-	display: inline-block;
-	transform: translateY(100%);
-	transition: all 0.25s cubic-bezier(0.65, 0, 0.21, 1.47) 0s;
-}
+
+
+/* TILE SWAP 
 
 .titleWrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   margin: auto;
-  text-align: center;
-  height: 80px;
+  text-align: right;
+  height: 60px;
   overflow: hidden;
-  width: 100%;
-  text-align: center;
 }
 
 h1 {
-  color: #292929;
-  font-size: 80px;
+  font-color: rgba(255, 255, 255, 90%)
+  font-size: 50px;
   margin: 0;
-  padding: 0;
-  line-height: 80px;
-  height: 80px;
+  padding: 10px 0px 5px 0px;
+  line-height: 60px;
+  height: 60px;
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fredoka One', cursive;
   text-transform: uppercase;
-  word-space: 4em;
   letter-spacing: 0.05em;
 }
 
@@ -75,7 +40,7 @@ h1 span {
 }
 
 h1.first span {
-  background: #fafafa;
+  background: rgba(255, 255, 255, 100%);
   position: relative;
   z-index: 5;
 }
@@ -244,6 +209,8 @@ h1.second span:nth-of-type(19) {
 .titleWrapper.ready:hover h1.second span {
   transform: translateY(-100%);
 }
+
+*/
 
 .hero-video video {
 	display: block;
