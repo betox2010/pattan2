@@ -726,6 +726,12 @@
 .bounceIn {
   -webkit-animation-name: bounceIn;
   animation-name: bounceIn;
+  text-decoration:none;
+
+/*  OPCIONES*/
+  -webkit-animation-duration: 1.25s;
+  -webkit-animation-delay: .5s;
+  -webkit-animation-iteration-count: 1;
 }
 
 @-webkit-keyframes bounceInDown {

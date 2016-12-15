@@ -1,10 +1,38 @@
 body {
 	background-image: linear-gradient(60deg, #B718DF, #8A40F8);
-	font-family: 'Fredoka One', cursive;
-	font-size: 30px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 35px;
+	z-index: 950;
+	text-decoration: none;
+}
+
+.hero-video video {
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%; 
+	z-index: -1;
+}
+
+.degradado {
+    color: rgb(0, 0, 102);
+    background-image: 
+    -webkit-linear-gradient(92deg,rgb(102, 255, 153),rgb(0, 102, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 5s infinite linear;
 }
 
 
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
 
 /* TILE SWAP 
 
@@ -212,9 +240,3 @@ h1.second span:nth-of-type(19) {
 
 */
 
-.hero-video video {
-	display: block;
-	position: fixed;
-	top: 0;
-	width: 100%; 
-}
